@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { supabase } from './supabaseClient'
 import Pixel, { Seg } from './Pixel'
-import DeckArt from './DeckArt2'
+import DeckArt from './DeckArt'
 import vinylGif from './assets/vinyl.gif'
 
 export default function Auth({ mode }) {
